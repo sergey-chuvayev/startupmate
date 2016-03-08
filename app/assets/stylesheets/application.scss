@@ -22,11 +22,7 @@ $primary-color: color("indigo", "darken-1") !default;
 @import "materialize";
 
 /* custom styles */
-/*
-nav {
-    margin-bottom: 20px;
-}
 
-.selectize-input, .selectize-control input { 
-    height: 36px;
-}*/
+.left-block {
+    margin-top: 20px;
+}
