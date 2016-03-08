@@ -8,8 +8,8 @@ class CreatePlaces < ActiveRecord::Migration
       t.string :postal_code
       t.string :street
       t.string :photo_link
-      t.string :latitude
-      t.string :longitude
+      t.decimal :latitude
+      t.decimal :longitude
       t.text :description
     end
   end

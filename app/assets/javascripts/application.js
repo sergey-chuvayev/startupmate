@@ -13,6 +13,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require materialize-sprockets
-//= require selectize
+//= require gmaps/google
+//= require underscore-min
 //= require turbolinks
 //= require_tree .

@@ -14,16 +14,16 @@
 ActiveRecord::Schema.define(version: 20160308121903) do
 
   create_table "places", force: :cascade do |t|
-    t.string "name"
-    t.string "founder"
-    t.string "city"
-    t.string "country"
-    t.string "postal_code"
-    t.string "street"
-    t.string "photo_link"
-    t.string "latitude"
-    t.string "longitude"
-    t.text   "description"
+    t.string  "name"
+    t.string  "founder"
+    t.string  "city"
+    t.string  "country"
+    t.string  "postal_code"
+    t.string  "street"
+    t.string  "photo_link"
+    t.decimal "latitude"
+    t.decimal "longitude"
+    t.text    "description"
   end
 
   create_table "places_tags", id: false, force: :cascade do |t|
