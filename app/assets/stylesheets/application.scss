@@ -11,6 +11,8 @@
  * file per style scope.
  *
  *= require material_icons
+ *= require selectize
+ *= require selectize.default
  *= require_tree .
  *= require_self
  */
@@ -18,3 +20,13 @@
 @import "materialize/components/color";
 $primary-color: color("indigo", "darken-1") !default;
 @import "materialize";
+
+/* custom styles */
+/*
+nav {
+    margin-bottom: 20px;
+}
+
+.selectize-input, .selectize-control input { 
+    height: 36px;
+}*/
